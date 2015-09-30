@@ -1,0 +1,199 @@
+0x8048e50: ret
+0x804868c: repz ret
+0x804863e: ret 0xeac1
+0x8048628: leave; ret
+0x80492f4: inc ecx; ret
+0x8048cab: pop ebp; ret
+0x80488d4: dec ecx; ret
+0x80484cd: pop ebx; ret
+0x8048e5f: nop; repz ret
+0x8048bce: or cl,cl; ret
+0x8048627: ror cl,1; ret
+0x80487d0: add cl,cl; ret
+0x8048664: ror cl,cl; ret
+0x804868b: leave; repz ret
+0x80485f1: sbb al,0x24; ret
+0x80492f3: adc al,0x41; ret
+0x804860d: ja 0x8048610; ret
+0x8048646: jne 0x8048649; ret
+0x80485f0: mov ebx,[esp]; ret
+0x8048e5e: nop; nop; repz ret
+0x8048626: call eax; leave; ret
+0x8048663: call edx; leave; ret
+0x8048caa: pop ebx; pop ebp; ret
+0x8048e4e: pop edi; pop ebp; ret
+0x804868a: add ecx,ecx; repz ret
+0x8048ddd: idiv edi; dec ecx; ret
+0x8048bcd: add al,0x8; leave; ret
+0x8048645: clc; jne 0x8048649; ret
+0x8048625: or bh,bh; ror cl,1; ret
+0x80485ef: nop; mov ebx,[esp]; ret
+0x8048e5d: nop; nop; nop; repz ret
+0x80487cc: mov eax,0x0; leave; ret
+0x8048662: or bh,bh; ror cl,cl; ret
+0x80487cf: add [eax],al; leave; ret
+0x80484ca: add esp,0x8; pop ebx; ret
+0x8048ca9: and al,0x5b; pop ebp; ret
+0x8048834: mov [eax],0x0; leave; ret
+0x80492f2: push cs; adc al,0x41; ret
+0x8048bcc: mov al,0x4; or cl,cl; ret
+0x8048609: or [ebx+0x17706f8],al; ret
+0x804860c: push es; ja 0x8048610; ret
+0x80484cb: les ecx,[eax]; pop ebx; ret
+0x8048689: or [ecx],al; leave; repz ret
+0x80487ce: add [eax],al; add cl,cl; ret
+0x8048e5c: nop; nop; nop; nop; repz ret
+0x8048644: sar eax,1; jne 0x8048649; ret
+0x80485ee: xchg ax,ax; mov ebx,[esp]; ret
+0x8048e4d: pop esi; pop edi; pop ebp; ret
+0x804860a: cmp eax,0x6; ja 0x8048610; ret
+0x8048ddc: inc eax; idiv edi; dec ecx; ret
+0x804860b: clc; push es; ja 0x8048610; ret
+0x8048624: add al,0x8; call eax; leave; ret
+0x8048dda: add eax,0xfff740e8; dec ecx; ret
+0x8048ca6: mov ebx,0x5b24c483; pop ebp; ret
+0x8048b56: add eax,0xfff9c4e8; dec ecx; ret
+0x8048661: add al,0x8; call edx; leave; ret
+0x8048bca: mov ds:0x804b088,eax; leave; ret
+0x8048ca8: les esp,[ebx+ebx*2]; pop ebp; ret
+0x8048688: add al,0x8; add ecx,ecx; repz ret
+0x8048e5b: nop; nop; nop; nop; nop; repz ret
+0x8048833: inc esi; add [eax],al; leave; ret
+0x8048643: rcl cl,1; clc; jne 0x8048649; ret
+0x80492f1: dec eax; push cs; adc al,0x41; ret
+0x80492f0: add cl,[eax+0xe]; adc al,0x41; ret
+0x8048686: test [eax-0x36fef7fc],dh; repz ret
+0x8048623: mov al,0x4; or bh,bh; ror cl,1; ret
+0x8048bc9: add [ebx+0x804b088],esp; leave; ret
+0x80485ed: nop; xchg ax,ax; mov ebx,[esp]; ret
+0x8048ca7: add esp,0x24; pop ebx; pop ebp; ret
+0x8048660: mov al,0x4; or bh,bh; ror cl,cl; ret
+0x8048684: mov ds:0x804b084,0x1; leave; repz ret
+0x80488d0: call 0x8048560 <exit@plt>; leave; ret
+0x80487cd: add [eax],al; add [eax],al; leave; ret
+0x8048607: mov al,0x4; or [ebx+0x17706f8],al; ret
+0x80484c8: add [eax],al; add esp,0x8; pop ebx; ret
+0x8048e4c: pop ebx; pop esi; pop edi; pop ebp; ret
+0x8048c22: call 0x80484f0 <printf@plt>; leave; ret
+0x8048687: mov al,0x4; or [ecx],al; leave; repz ret
+0x8048685: add eax,0x804b084; add ecx,ecx; repz ret
+0x804865c: mov [esp],0x804b050; call edx; leave; ret
+0x8048e6d: add ebx,0x2193; add esp,0x8; pop ebx; ret
+0x804861f: mov [esp],0x804b050; call eax; leave; ret
+0x80485ec: xchg ax,ax; xchg ax,ax; mov ebx,[esp]; ret
+0x8048642: add eax,edx; sar eax,1; jne 0x8048649; ret
+0x8048608: add al,0x8; cmp eax,0x6; ja 0x8048610; ret
+0x8048e4b: sbb al,0x5b; pop esi; pop edi; pop ebp; ret
+0x8048e48: fild [ebx+0x5e5b1cc4]; pop edi; pop ebp; ret
+0x8048bc7: add eax,0x1; mov ds:0x804b088,eax; leave; ret
+0x8048622: push eax; mov al,0x4; or bh,bh; ror cl,1; ret
+0x804865f: push eax; mov al,0x4; or bh,bh; ror cl,cl; ret
+0x80485eb: nop; xchg ax,ax; xchg ax,ax; mov ebx,[esp]; ret
+0x8048621: and al,0x50; mov al,0x4; or bh,bh; ror cl,1; ret
+0x8048606: push eax; mov al,0x4; or [ebx+0x17706f8],al; ret
+0x80492eb: add ds:0x2300e4e,0x48; push cs; adc al,0x41; ret
+0x80492ef: xor [edx],al; dec eax; push cs; adc al,0x41; ret
+0x8048605: sub eax,0x804b050; cmp eax,0x6; ja 0x8048610; ret
+0x8048683: inc esi; add eax,0x804b084; add ecx,ecx; repz ret
+0x804865e: and al,0x50; mov al,0x4; or bh,bh; ror cl,cl; ret
+0x8048b57: call 0x8048520 <__stack_chk_fail@plt>; leave; ret
+0x8048bc6: or [ebx-0x775cfe40],al; mov al,0x4; or cl,cl; ret
+0x8048604: or ds:0x804b050,ch; cmp eax,0x6; ja 0x8048610; ret
+0x8048641: pop ds; add eax,edx; sar eax,1; jne 0x8048649; ret
+0x80487c7: call 0x8048540 <puts@plt>; mov eax,0x0; leave; ret
+0x8048ca5: jle 0x8048c62; add esp,0x24; pop ebx; pop ebp; ret
+0x8048e4a: les ebx,[ebx+ebx*2]; pop esi; pop edi; pop ebp; ret
+0x80488ce: add [eax],al; call 0x8048560 <exit@plt>; leave; ret
+0x8048c20: add al,0x24; call 0x80484f0 <printf@plt>; leave; ret
+0x80488c9: mov [esp],0x1; call 0x8048560 <exit@plt>; leave; ret
+0x8048e49: add esp,0x1c; pop ebx; pop esi; pop edi; pop ebp; ret
+0x804867f: call 0x8048600; mov ds:0x804b084,0x1; leave; repz ret
+0x804865a: and al,0x4; mov [esp],0x804b050; call edx; leave; ret
+0x80492ec: add eax,0x2300e4e; dec eax; push cs; adc al,0x41; ret
+0x804882f: call 0x8048570 <strchr@plt>; mov [eax],0x0; leave; ret
+0x8048ca4: or [esi-0x45],edi; add esp,0x24; pop ebx; pop ebp; ret
+0x80484c6: xchg [eax],al; add [eax],al; add esp,0x8; pop ebx; ret
+0x80485ea: xchg ax,ax; xchg ax,ax; xchg ax,ax; mov ebx,[esp]; ret
+0x8048c1f: mov [esp],eax; call 0x80484f0 <printf@plt>; leave; ret
+0x804861c: sub esp,0x18; mov [esp],0x804b050; call eax; leave; ret
+0x8048dd8: add [ebp+eax*1-0x18],dh; inc eax; idiv edi; dec ecx; ret
+0x804863f: shr edx,0x1f; add eax,edx; sar eax,1; jne 0x8048649; ret
+0x8048bc5: add al,0x8; add eax,0x1; mov ds:0x804b088,eax; leave; ret
+0x8048e68: call 0x80485f0; add ebx,0x2193; add esp,0x8; pop ebx; ret
+0x80492ee: push cs; xor [edx],al; dec eax; push cs; adc al,0x41; ret
+0x8048620: add al,0x24; push eax; mov al,0x4; or bh,bh; ror cl,1; ret
+0x804865d: add al,0x24; push eax; mov al,0x4; or bh,bh; ror cl,cl; ret
+0x80485e9: nop; xchg ax,ax; xchg ax,ax; xchg ax,ax; mov ebx,[esp]; ret
+0x8048ca3: hlt; or [esi-0x45],edi; add esp,0x24; pop ebx; pop ebp; ret
+0x8048658: mov [esp+0x4],eax; mov [esp],0x804b050; call edx; leave; ret
+0x8048bc3: mov [eax-0x3f7cf7fc],dh; add [ebx+0x804b088],esp; leave; ret
+0x8048bc4: mov al,0x4; or [ebx-0x775cfe40],al; mov al,0x4; or cl,cl; ret
+0x8048603: add al,0x8; sub eax,0x804b050; cmp eax,0x6; ja 0x8048610; ret
+0x8048602: mov al,0x4; or ds:0x804b050,ch; cmp eax,0x6; ja 0x8048610; ret
+0x8048659: inc esp; and al,0x4; mov [esp],0x804b050; call edx; leave; ret
+0x80484c5: call 0x8048550 <__gmon_start__@plt>; add esp,0x8; pop ebx; ret
+0x80487c5: add al,0x8; call 0x8048540 <puts@plt>; mov eax,0x0; leave; ret
+0x8048dd9: je 0x8048de0; call 0x8048520 <__stack_chk_fail@plt>; leave; ret
+0x8048b55: je 0x8048b5c; call 0x8048520 <__stack_chk_fail@plt>; leave; ret
+0x8048c1e: adc al,0x89; add al,0x24; call 0x80484f0 <printf@plt>; leave; ret
+0x80492ea: adc al,0x83; add eax,0x2300e4e; dec eax; push cs; adc al,0x41; ret
+0x804867c: sub esp,0x8; call 0x8048600; mov ds:0x804b084,0x1; leave; repz ret
+0x80485e8: xchg ax,ax; xchg ax,ax; xchg ax,ax; xchg ax,ax; mov ebx,[esp]; ret
+0x80488cc: add [eax],eax; add [eax],al; call 0x8048560 <exit@plt>; leave; ret
+0x8048bc2: mov eax,ds:0x804b088; add eax,0x1; mov ds:0x804b088,eax; leave; ret
+0x80488c7: jne 0x80488d5; mov [esp],0x1; call 0x8048560 <exit@plt>; leave; ret
+0x804863c: add cl,[ecx+0x1feac1c2]; add eax,edx; sar eax,1; jne 0x8048649; ret
+0x804882d: add al,0x24; call 0x8048570 <strchr@plt>; mov [eax],0x0; leave; ret
+0x804861a: mov ebp,esp; sub esp,0x18; mov [esp],0x804b050; call eax; leave; ret
+0x8048600: mov eax,0x804b053; sub eax,0x804b050; cmp eax,0x6; ja 0x8048610; ret
+0x8048ca1: cmp [ebp-0xc],0x9; jle 0x8048c62; add esp,0x24; pop ebx; pop ebp; ret
+0x8048ca2: jge 0x8048c98; or [esi-0x45],edi; add esp,0x24; pop ebx; pop ebp; ret
+0x8048bc1: add [ecx+0x804b088],ah; add eax,0x1; mov ds:0x804b088,eax; leave; ret
+0x804863d: mov edx,eax; shr edx,0x1f; add eax,edx; sar eax,1; jne 0x8048649; ret
+0x804882c: mov [esp],eax; call 0x8048570 <strchr@plt>; mov [eax],0x0; leave; ret
+0x8048dd6: add [eax],al; add [ebp+eax*1-0x18],dh; inc eax; idiv edi; dec ecx; ret
+0x8048e65: sub esp,0x8; call 0x80485f0; add ebx,0x2193; add esp,0x8; pop ebx; ret
+0x80487c0: mov [esp],0x8048ef0; call 0x8048540 <puts@plt>; mov eax,0x0; leave; ret
+0x804863b: clc; add cl,[ecx+0x1feac1c2]; add eax,edx; sar eax,1; jne 0x8048649; ret
+0x8048601: push ebx; mov al,0x4; or ds:0x804b050,ch; cmp eax,0x6; ja 0x8048610; ret
+0x80492e5: adc [esi+0x140e4104],al; add ds:0x2300e4e,0x48; push cs; adc al,0x41; ret
+0x80485ff: nop; mov eax,0x804b053; sub eax,0x804b050; cmp eax,0x6; ja 0x8048610; ret
+0x8048c1c: mov eax,[ebp+0x14]; mov [esp],eax; call 0x80484f0 <printf@plt>; leave; ret
+0x8048655: sub esp,0x18; mov [esp+0x4],eax; mov [esp],0x804b050; call edx; leave; ret
+0x8048c1d: inc ebp; adc al,0x89; add al,0x24; call 0x80484f0 <printf@plt>; leave; ret
+0x80487c4: mov es,WORD [eax+ecx*1]; call 0x8048540 <puts@plt>; mov eax,0x0; leave; ret
+0x80484c0: inc [ebp-0x17fa8b40]; xchg [eax],al; add [eax],al; add esp,0x8; pop ebx; ret
+0x80484c3: je 0x80484ca; call 0x8048550 <__gmon_start__@plt>; add esp,0x8; pop ebx; ret
+0x8048dd7: add [eax],al; je 0x8048de0; call 0x8048520 <__stack_chk_fail@plt>; leave; ret
+0x8048dd4: add eax,0x14; je 0x8048de0; call 0x8048520 <__stack_chk_fail@plt>; leave; ret
+0x8048b50: add eax,0x14; je 0x8048b5c; call 0x8048520 <__stack_chk_fail@plt>; leave; ret
+0x8048b53: add [eax],al; je 0x8048b5c; call 0x8048520 <__stack_chk_fail@plt>; leave; ret
+0x804867a: mov ebp,esp; sub esp,0x8; call 0x8048600; mov ds:0x804b084,0x1; leave; repz ret
+0x80488ca: add al,0x24; add [eax],eax; add [eax],al; call 0x8048560 <exit@plt>; leave; ret
+0x8048b4e: xor eax,gs:0x14; je 0x8048b5c; call 0x8048520 <__stack_chk_fail@plt>; leave; ret
+0x8048b4f: xor eax,ds:0x14; je 0x8048b5c; call 0x8048520 <__stack_chk_fail@plt>; leave; ret
+0x80487c3: lock mov es,WORD [eax+ecx*1]; call 0x8048540 <puts@plt>; mov eax,0x0; leave; ret
+0x8048dd2: xor eax,gs:0x14; je 0x8048de0; call 0x8048520 <__stack_chk_fail@plt>; leave; ret
+0x8048dd3: xor eax,ds:0x14; je 0x8048de0; call 0x8048520 <__stack_chk_fail@plt>; leave; ret
+0x80485fe: xchg ax,ax; mov eax,0x804b053; sub eax,0x804b050; cmp eax,0x6; ja 0x8048610; ret
+0x8048bc0: add [eax],al; mov eax,ds:0x804b088; add eax,0x1; mov ds:0x804b088,eax; leave; ret
+0x80488c5: test eax,eax; jne 0x80488d5; mov [esp],0x1; call 0x8048560 <exit@plt>; leave; ret
+0x80492e4: push cs; adc [esi+0x140e4104],al; add ds:0x2300e4e,0x48; push cs; adc al,0x41; ret
+0x804882a: add [eax],al; mov [esp],eax; call 0x8048570 <strchr@plt>; mov [eax],0x0; leave; ret
+0x8048bbf: add [eax],al; add [ecx+0x804b088],ah; add eax,0x1; mov ds:0x804b088,eax; leave; ret
+0x8048b4d: hlt; xor eax,gs:0x14; je 0x8048b5c; call 0x8048520 <__stack_chk_fail@plt>; leave; ret
+0x8048dd1: hlt; xor eax,gs:0x14; je 0x8048de0; call 0x8048520 <__stack_chk_fail@plt>; leave; ret
+0x8048bbb: mov [eax+0x4c],0x1; mov eax,ds:0x804b088; add eax,0x1; mov ds:0x804b088,eax; leave; ret
+0x80487c2: and al,0xf0; mov es,WORD [eax+ecx*1]; call 0x8048540 <puts@plt>; mov eax,0x0; leave; ret
+0x8048824: mov [esp+0x4],0xa; mov [esp],eax; call 0x8048570 <strchr@plt>; mov [eax],0x0; leave; ret
+0x8048b51: adc al,0x0; add [eax],al; je 0x8048b5c; call 0x8048520 <__stack_chk_fail@plt>; leave; ret
+0x8048dd5: adc al,0x0; add [eax],al; je 0x8048de0; call 0x8048520 <__stack_chk_fail@plt>; leave; ret
+0x80484c1: test eax,eax; je 0x80484ca; call 0x8048550 <__gmon_start__@plt>; add esp,0x8; pop ebx; ret
+0x8048bba: lock mov [eax+0x4c],0x1; mov eax,ds:0x804b088; add eax,0x1; mov ds:0x804b088,eax; leave; ret
+0x80492e2: add eax,[ebx+0xe]; adc [esi+0x140e4104],al; add ds:0x2300e4e,0x48; push cs; adc al,0x41; ret
+0x80487c1: add al,0x24; lock mov es,WORD [eax+ecx*1]; call 0x8048540 <puts@plt>; mov eax,0x0; leave; ret
+0x8048b4b: mov eax,[ebp-0xc]; xor eax,gs:0x14; je 0x8048b5c; call 0x8048520 <__stack_chk_fail@plt>; leave; ret
+0x8048dcf: mov eax,[ebp-0xc]; xor eax,gs:0x14; je 0x8048de0; call 0x8048520 <__stack_chk_fail@plt>; leave; ret
+0x8048dce: dec [ebx+0x3365f445]; add eax,0x14; je 0x8048de0; call 0x8048520 <__stack_chk_fail@plt>; leave; ret
+0x8048b49: call [eax+0x65f4458b]; xor eax,ds:0x14; je 0x8048b5c; call 0x8048520 <__stack_chk_fail@plt>; leave; ret
+0x8048c17: call 0x80484f0 <printf@plt>; mov eax,[ebp+0x14]; mov [esp],eax; call 0x80484f0 <printf@plt>; leave; ret
