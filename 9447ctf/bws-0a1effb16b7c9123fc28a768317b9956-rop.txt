@@ -1,0 +1,217 @@
+0x400dd5: ret
+0x400a8a: repz ret
+0x400a45: ret 0xc148
+0x400bf6: pop r12; ret
+0x400b4c: pop r13; ret
+0x400eb7: pop rbx; ret
+0x401323: pop rdi; ret
+0x400a15: pop rbp; ret
+0x400bf7: pop rsp; ret
+0x401322: pop r15; ret
+0x40132f: add bl,dh; ret
+0x400de9: and al,0xf3; ret
+0x400856: add esp,0x8; ret
+0x400e0b: xor eax,eax; ret
+0x400a89: add ebx,esi; ret
+0x400855: add rsp,0x8; ret
+0x400e0f: add al,[rax]; ret
+0x400f3e: add [rax],al; ret
+0x400e0e: mov [rdx],0x0; ret
+0x400f39: add rsp,0x1a8; ret
+0x400f3a: add esp,0x1a8; ret
+0x4012b3: add rsp,0x1018; ret
+0x4012b4: add esp,0x1018; ret
+0x401238: call [rbx+0x5d]; ret
+0x40130c: fmul [rax-0x7d]; ret
+0x400c93: or [rbx+0x5d],bl; ret
+0x400c94: pop rbx; pop rbp; ret
+0x401321: pop rsi; pop r15; ret
+0x401320: pop r14; pop r15; ret
+0x400b4a: pop r12; pop r13; ret
+0x400dcf: add [rax-0x1],bh; ret
+0x400bf5: pop rbp; pop r12; ret
+0x400b4b: pop rsp; pop r13; ret
+0x400de8: je 0x400e0e; repz ret
+0x40132e: add [rax],al; repz ret
+0x400a88: add [rcx],al; repz ret
+0x4011a8: add [rbx+0x5d],bl; ret
+0x400dd0: mov eax,0xffffffff; ret
+0x400a13: ja 0x400a17; pop rbp; ret
+0x400a50: jne 0x400a54; pop rbp; ret
+0x400eb5: add [rax],al; pop rbx; ret
+0x400eb1: add esp,0x120; pop rbx; ret
+0x400eb0: add rsp,0x120; pop rbx; ret
+0x40132d: add [rax],al; add bl,dh; ret
+0x4009c0: xor eax,eax; add rsp,0x8; ret
+0x400b47: call 0x5c8168a7; pop r13; ret
+0x401334: sub rsp,0x8; add rsp,0x8; ret
+0x401335: sub esp,0x8; add rsp,0x8; ret
+0x401328: nop [rax+rax*1+0x0]; repz ret
+0x400ce0: and al,[rax]; add rsp,0x8; ret
+0x400e0c: rol bl,0xc6; add al,[rax]; ret
+0x40131f: pop rbp; pop r14; pop r15; ret
+0x400b49: pop rbp; pop r12; pop r13; ret
+0x400a87: and [rax],al; add ebx,esi; ret
+0x400f3c: test al,0x1; add [rax],al; ret
+0x400853: add [rax],al; add rsp,0x8; ret
+0x400de4: inc [rax+0x24742f3a]; repz ret
+0x400bf4: pop rbx; pop rbp; pop r12; ret
+0x40131e: pop r13; pop r14; pop r15; ret
+0x4012b6: sbb [rax],dl; add [rax],al; ret
+0x400a4f: clc; jne 0x400a54; pop rbp; ret
+0x400bf3: add [rbx+0x5d],bl; pop r12; ret
+0x400e08: mov [rdx],rax; xor eax,eax; ret
+0x400e09: mov [rdx],eax; xor eax,eax; ret
+0x400f37: jne 0x400f4f; add rsp,0x1a8; ret
+0x401327: nop cs:[rax+rax*1+0x0]; repz ret
+0x4012b1: jne 0x4012bb; add rsp,0x1018; ret
+0x400cdd: add eax,0x2213fe; add rsp,0x8; ret
+0x400c91: add esp,0x8; pop rbx; pop rbp; ret
+0x400a84: add eax,0x201646; add ebx,esi; ret
+0x400c90: add rsp,0x8; pop rbx; pop rbp; ret
+0x400de6: cmp ch,[rdi]; je 0x400e0e; repz ret
+0x400dcd: add [rax],al; add [rax-0x1],bh; ret
+0x4011a7: add [rax],al; pop rbx; pop rbp; ret
+0x40132c: add [rax],al; add [rax],al; repz ret
+0x4011a3: add esp,0x118; pop rbx; pop rbp; ret
+0x4011a2: add rsp,0x118; pop rbx; pop rbp; ret
+0x400851: mov ebx,0x48000000; add esp,0x8; ret
+0x400dce: add [rax],al; mov eax,0xffffffff; ret
+0x400a4e: sar eax,1; jne 0x400a54; pop rbp; ret
+0x4012b0: add [rbp+0x8],dh; add rsp,0x1018; ret
+0x400a4d: sar rax,1; jne 0x400a54; pop rbp; ret
+0x4011a6: add [rax],eax; add [rbx+0x5d],bl; ret
+0x400de5: cmp [rdx],0x2f; je 0x400e0e; repz ret
+0x400f36: add [rbp+0x16],dh; add rsp,0x1a8; ret
+0x401233: or [rax-0x1],bh; pop rbx; pop rbp; ret
+0x400a10: mov rbp,rsp; ja 0x400a17; pop rbp; ret
+0x400a11: mov ebp,esp; ja 0x400a17; pop rbp; ret
+0x400b48: pop rbx; pop rbp; pop r12; pop r13; ret
+0x40131d: pop rsp; pop r13; pop r14; pop r15; ret
+0x401325: data32 nop cs:[rax+rax*1+0x0]; repz ret
+0x40131c: pop r12; pop r13; pop r14; pop r15; ret
+0x400eb3: and [rcx],al; add [rax],al; pop rbx; ret
+0x4010d2: add [rbx+0x5d],bl; pop r12; pop r13; ret
+0x401234: mov eax,0xffffffff; pop rbx; pop rbp; ret
+0x400eae: jne 0x400eb9; add rsp,0x120; pop rbx; ret
+0x40132b: add [rax],al; add [rax],al; add bl,dh; ret
+0x4009be: add [rax],al; xor eax,eax; add rsp,0x8; ret
+0x401332: add [rax],al; sub rsp,0x8; add rsp,0x8; ret
+0x400a83: mov [rip+0x201646],0x1 # 0x6020d0; repz ret
+0x400bf2: add [rax],al; pop rbx; pop rbp; pop r12; ret
+0x400e0a: add dh,[rcx]; rol bl,0xc6; add al,[rax]; ret
+0x400dc8: nop [rax+rax*1+0x0]; mov eax,0xffffffff; ret
+0x4009bb: call 0x401240; xor eax,eax; add rsp,0x8; ret
+0x400bee: add esp,0x110; pop rbx; pop rbp; pop r12; ret
+0x400ead: add [rbp+0x9],dh; add rsp,0x120; pop rbx; ret
+0x400bed: add rsp,0x110; pop rbx; pop rbp; pop r12; ret
+0x400b45: or [rcx+0x415d5be8],cl; pop rsp; pop r13; ret
+0x400f32: and eax,0x28; jne 0x400f4f; add rsp,0x1a8; ret
+0x400bf1: add [rax],eax; add [rbx+0x5d],bl; pop r12; ret
+0x400f35: add [rax],al; jne 0x400f4f; add rsp,0x1a8; ret
+0x4012ac: and eax,0x28; jne 0x4012bb; add rsp,0x1018; ret
+0x4012af: add [rax],al; jne 0x4012bb; add rsp,0x1018; ret
+0x400de3: xor bh,bh; cmp [rdx],0x2f; je 0x400e0e; repz ret
+0x40131b: pop rbp; pop r12; pop r13; pop r14; pop r15; ret
+0x400f2e: xor rcx,fs:0x28; jne 0x400f4f; add rsp,0x1a8; ret
+0x400f2f: xor rcx,ds:0x28; jne 0x400f4f; add rsp,0x1a8; ret
+0x400a4c: ror [rax-0x2f],1; clc; jne 0x400a54; pop rbp; ret
+0x400f30: xor ecx,ds:0x28; jne 0x400f4f; add rsp,0x1a8; ret
+0x400c8c: nop [rax+0x0]; add rsp,0x8; pop rbx; pop rbp; ret
+0x400dcb: add [rax],al; add [rax],al; add [rax-0x1],bh; ret
+0x4011a5: sbb [rcx],al; add [rax],al; pop rbx; pop rbp; ret
+0x4011a0: jne 0x4011da; add rsp,0x118; pop rbx; pop rbp; ret
+0x4012a8: xor rax,fs:0x28; jne 0x4012bb; add rsp,0x1018; ret
+0x400a4a: add rax,rdx; sar rax,1; jne 0x400a54; pop rbp; ret
+0x4012aa: xor eax,ds:0x28; jne 0x4012bb; add rsp,0x1018; ret
+0x4012a9: xor rax,ds:0x28; jne 0x4012bb; add rsp,0x1018; ret
+0x400a4b: add eax,edx; sar rax,1; jne 0x400a54; pop rbp; ret
+0x40132a: test [rax],al; add [rax],al; add [rax],al; repz ret
+0x400dcc: add [rax],al; add [rax],al; mov eax,0xffffffff; ret
+0x400a0c: cmp rax,0xe; mov rbp,rsp; ja 0x400a17; pop rbp; ret
+0x4012ae: add [rax],al; add [rbp+0x8],dh; add rsp,0x1018; ret
+0x400a0d: cmp eax,0xe; mov rbp,rsp; ja 0x400a17; pop rbp; ret
+0x400cdc: mov [rip+0x2213fe],eax # 0x6220e0; add rsp,0x8; ret
+0x400f34: add [rax],al; add [rbp+0x16],dh; add rsp,0x1a8; ret
+0x400a81: call [rbp-0x3a]; add eax,0x201646; add ebx,esi; ret
+0x400b46: mov eax,ebp; pop rbx; pop rbp; pop r12; pop r13; ret
+0x400a82: pop rbp; mov [rip+0x201646],0x1 # 0x6020d0; repz ret
+0x400850: call 0x400910 <__gmon_start__@plt>; add rsp,0x8; ret
+0x40119f: fdiv [rbp+0x38]; add rsp,0x118; pop rbx; pop rbp; ret
+0x401231: add esp,0x8; mov eax,0xffffffff; pop rbx; pop rbp; ret
+0x400cd9: sar [rax+0xb],0x89; add eax,0x2213fe; add rsp,0x8; ret
+0x401230: add rsp,0x8; mov eax,0xffffffff; pop rbx; pop rbp; ret
+0x4010d1: add [rax],eax; pop rbx; pop rbp; pop r12; pop r13; ret
+0x4010d0: add [rcx],eax; add [rbx+0x5d],bl; pop r12; pop r13; ret
+0x400eac: add [rax],al; jne 0x400eb9; add rsp,0x120; pop rbx; ret
+0x400ea9: and eax,0x28; jne 0x400eb9; add rsp,0x120; pop rbx; ret
+0x400e01: mov [rdx+0x8],0x6c6d74; mov [rdx],rax; xor eax,eax; ret
+0x4010cc: add rsp,0x10158; pop rbx; pop rbp; pop r12; pop r13; ret
+0x400cd7: inc [rbp-0x76f48740]; add eax,0x2213fe; add rsp,0x8; ret
+0x4010cd: add esp,0x10158; pop rbx; pop rbp; pop r12; pop r13; ret
+0x401319: or [rbx+0x5d],bl; pop r12; pop r13; pop r14; pop r15; ret
+0x4009b9: xor eax,eax; call 0x401240; xor eax,eax; add rsp,0x8; ret
+0x400dc2: jmp 0x400d40; nop [rax+rax*1+0x0]; mov eax,0xffffffff; ret
+0x400ea7: xor eax,ds:0x28; jne 0x400eb9; add rsp,0x120; pop rbx; ret
+0x400bf0: adc [rcx],al; add [rax],al; pop rbx; pop rbp; pop r12; ret
+0x400de2: push rsp; xor bh,bh; cmp [rdx],0x2f; je 0x400e0e; repz ret
+0x400ea6: xor rax,ds:0x28; jne 0x400eb9; add rsp,0x120; pop rbx; ret
+0x400ea5: xor rax,fs:0x28; jne 0x400eb9; add rsp,0x120; pop rbx; ret
+0x400beb: jne 0x400c00; add rsp,0x110; pop rbx; pop rbp; pop r12; ret
+0x400eab: add [rax],al; add [rbp+0x9],dh; add rsp,0x120; pop rbx; ret
+0x400f33: sub [rax],al; add [rax],al; jne 0x400f4f; add rsp,0x1a8; ret
+0x40119d: add [rcx+0x483875d8],cl; add esp,0x118; pop rbx; pop rbp; ret
+0x4012ad: sub [rax],al; add [rax],al; jne 0x4012bb; add rsp,0x1018; ret
+0x400de1: lea edx,[rdx+rsi*1-0x1]; cmp [rdx],0x2f; je 0x400e0e; repz ret
+0x400de0: lea rdx,[rdx+rsi*1-0x1]; cmp [rdx],0x2f; je 0x400e0e; repz ret
+0x400e07: add [rax-0x77],cl; add dh,[rcx]; rol bl,0xc6; add al,[rax]; ret
+0x40119e: mov eax,ebx; jne 0x4011da; add rsp,0x118; pop rbx; pop rbp; ret
+0x400f2c: add [rax],al; xor rcx,fs:0x28; jne 0x400f4f; add rsp,0x1a8; ret
+0x400a47: shr edx,0x3f; add rax,rdx; sar rax,1; jne 0x400a54; pop rbp; ret
+0x400bea: add [rbp+0x13],dh; add rsp,0x110; pop rbx; pop rbp; pop r12; ret
+0x400cda: js 0x400ce7; mov [rip+0x2213fe],eax # 0x6220e0; add rsp,0x8; ret
+0x400a46: shr rdx,0x3f; add rax,rdx; sar rax,1; jne 0x400a54; pop rbp; ret
+0x4010cf: pop rax; add [rcx],eax; add [rbx+0x5d],bl; pop r12; pop r13; ret
+0x4012a6: add [rax],al; xor rax,fs:0x28; jne 0x4012bb; add rsp,0x1018; ret
+0x40084e: je 0x400855; call 0x400910 <__gmon_start__@plt>; add rsp,0x8; ret
+0x400dca: test [rax],al; add [rax],al; add [rax],al; mov eax,0xffffffff; ret
+0x400a7d: call 0x400a00; pop rbp; mov [rip+0x201646],0x1 # 0x6020d0; repz ret
+0x40122e: add [rax],al; add rsp,0x8; mov eax,0xffffffff; pop rbx; pop rbp; ret
+0x400ddf: ror [rax-0x73],0x54; xor bh,bh; cmp [rdx],0x2f; je 0x400e0e; repz ret
+0x400a09: and [rax+0x0],ah; cmp rax,0xe; mov rbp,rsp; ja 0x400a17; pop rbp; ret
+0x400eaa: sub [rax],al; add [rax],al; jne 0x400eb9; add rsp,0x120; pop rbx; ret
+0x40122d: add [rax],r8b; add rsp,0x8; mov eax,0xffffffff; pop rbx; pop rbp; ret
+0x400a06: sub rax,0x6020c0; cmp rax,0xe; mov rbp,rsp; ja 0x400a17; pop rbp; ret
+0x400a07: sub eax,0x6020c0; cmp rax,0xe; mov rbp,rsp; ja 0x400a17; pop rbp; ret
+0x400dc0: mov edi,esi; jmp 0x400d40; nop [rax+rax*1+0x0]; mov eax,0xffffffff; ret
+0x400ea3: add [rax],al; xor rax,fs:0x28; jne 0x400eb9; add rsp,0x120; pop rbx; ret
+0x400f31: or al,0x25; sub [rax],al; add [rax],al; jne 0x400f4f; add rsp,0x1a8; ret
+0x4012ab: add al,0x25; sub [rax],al; add [rax],al; jne 0x4012bb; add rsp,0x1018; ret
+0x40122b: nop [rax+rax*1+0x0]; add rsp,0x8; mov eax,0xffffffff; pop rbx; pop rbp; ret
+0x40119b: add [rax],al; add [rcx+0x483875d8],cl; add esp,0x118; pop rbx; pop rbp; ret
+0x4010cb: adc eax,0x58c48148; add [rcx],eax; add [rbx+0x5d],bl; pop r12; pop r13; ret
+0x400dde: xor eax,eax; lea rdx,[rdx+rsi*1-0x1]; cmp [rdx],0x2f; je 0x400e0e; repz ret
+0x400c87: jmp 0x400980 <fwrite@plt>; nop [rax+0x0]; add rsp,0x8; pop rbx; pop rbp; ret
+0x4012a4: or [rax],dl; add [rax],al; xor rax,fs:0x28; jne 0x4012bb; add rsp,0x1018; ret
+0x400cd8: test eax,eax; js 0x400ce7; mov [rip+0x2213fe],eax # 0x6220e0; add rsp,0x8; ret
+0x40084c: test eax,eax; je 0x400855; call 0x400910 <__gmon_start__@plt>; add rsp,0x8; ret
+0x40084b: test rax,rax; je 0x400855; call 0x400910 <__gmon_start__@plt>; add rsp,0x8; ret
+0x400a7b: mov ebp,esp; call 0x400a00; pop rbp; mov [rip+0x201646],0x1 # 0x6020d0; repz ret
+0x400ddd: div [rcx]; ror [rax-0x73],0x54; xor bh,bh; cmp [rdx],0x2f; je 0x400e0e; repz ret
+0x400a7a: mov rbp,rsp; call 0x400a00; pop rbp; mov [rip+0x201646],0x1 # 0x6020d0; repz ret
+0x400e06: ins es:[rdi],dx; add [rax-0x77],cl; add dh,[rcx]; rol bl,0xc6; add al,[rax]; ret
+0x400dbe: je 0x400dd0; mov edi,esi; jmp 0x400d40; nop [rax+rax*1+0x0]; mov eax,0xffffffff; ret
+0x400df7: movabs rax,0x682e7865646e692f; mov [rdx+0x8],0x6c6d74; mov [rdx],rax; xor eax,eax; ret
+0x4009b4: call 0x400950 <setvbuf@plt>; xor eax,eax; call 0x401240; xor eax,eax; add rsp,0x8; ret
+0x400dfa: imul ebp,[rsi+0x64],0x682e7865; mov [rdx+0x8],0x6c6d74; mov [rdx],rax; xor eax,eax; ret
+0x400e03: or [rbp+rbp*2+0x6c],dh; add [rax-0x77],cl; add dh,[rcx]; rol bl,0xc6; add al,[rax]; ret
+0x400e02: or [rbp+r13*2+0x6c],sil; add [rax-0x77],cl; add dh,[rcx]; rol bl,0xc6; add al,[rax]; ret
+0x400a79: push rbp; mov rbp,rsp; call 0x400a00; pop rbp; mov [rip+0x201646],0x1 # 0x6020d0; repz ret
+0x400ddb: movsxd rsi,esi; xor eax,eax; lea rdx,[rdx+rsi*1-0x1]; cmp [rdx],0x2f; je 0x400e0e; repz ret
+0x400ddc: movsxd esi,esi; xor eax,eax; lea rdx,[rdx+rsi*1-0x1]; cmp [rdx],0x2f; je 0x400e0e; repz ret
+0x400849: and [rax],al; test rax,rax; je 0x400855; call 0x400910 <__gmon_start__@plt>; add rsp,0x8; ret
+0x400cd3: call 0x400b60; test eax,eax; js 0x400ce7; mov [rip+0x2213fe],eax # 0x6220e0; add rsp,0x8; ret
+0x400846: add eax,0x2017ad; test rax,rax; je 0x400855; call 0x400910 <__gmon_start__@plt>; add rsp,0x8; ret
+0x400a78: adc [rbp+0x48],edx; mov ebp,esp; call 0x400a00; pop rbp; mov [rip+0x201646],0x1 # 0x6020d0; repz ret
+0x400844: mov rax,[rip+0x2017ad] # 0x601ff8; test rax,rax; je 0x400855; call 0x400910 <__gmon_start__@plt>; add rsp,0x8; ret
+0x400845: mov eax,[rip+0x2017ad] # 0x601ff8; test rax,rax; je 0x400855; call 0x400910 <__gmon_start__@plt>; add rsp,0x8; ret

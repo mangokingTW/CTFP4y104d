@@ -1,0 +1,55 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android)
+SHA1-Digest-Manifest: QNlMfSVx5FQFjlZD2O9oYT3NrJg=
+
+Name: res/drawable-xhdpi/ic_launcher.png
+SHA1-Digest: UHl3IEcuAf/i+FGmuG09opVumSU=
+
+Name: lib/x86/libdatabase_sqlcipher.so
+SHA1-Digest: NfHOkuxkXzj38+Tb9OikwStyLWg=
+
+Name: res/drawable-hdpi/ic_launcher.png
+SHA1-Digest: vP+OGLocMuIdrhTVDYURg3U8ucg=
+
+Name: lib/x86/libstlport_shared.so
+SHA1-Digest: iFc/fWel/gJfNu8i3unR9BgVKWk=
+
+Name: lib/x86/libsqlcipher_android.so
+SHA1-Digest: b5VTs3u6w+ahCj6Ot5KQ322O0tE=
+
+Name: lib/armeabi/libsqlcipher_android.so
+SHA1-Digest: YWefEnIpFGRG0RXpURCdptArnj0=
+
+Name: resources.arsc
+SHA1-Digest: +4XEyfBOcWcef+2lL2/XHkn0MHE=
+
+Name: classes.dex
+SHA1-Digest: 8oRVhT0khynWBCkB1mLugDLCNPU=
+
+Name: lib/armeabi/libstlport_shared.so
+SHA1-Digest: HERznFAolRmNJzEbWIZ+3ugV0l8=
+
+Name: res/menu/activity_entry.xml
+SHA1-Digest: FGfyh1SVXABYiY5/N/uLiYqYMk8=
+
+Name: res/drawable-ldpi/ic_launcher.png
+SHA1-Digest: bMibfNqZRu7DVz2eR0O+ZpPeg4A=
+
+Name: res/layout/main.xml
+SHA1-Digest: rtXRfSwj1g8UlNzJm278zAxwZCI=
+
+Name: res/layout/activity_entry.xml
+SHA1-Digest: yaZQ/nWEBIc1TGnFLukSLTVPfFk=
+
+Name: assets/icudt46l.zip
+SHA1-Digest: ZUPgRuc9tkl1SFyA2jsTGefAl84=
+
+Name: lib/armeabi/libdatabase_sqlcipher.so
+SHA1-Digest: lywcEhz/LXaM/sBiSiNVxjnWeHU=
+
+Name: AndroidManifest.xml
+SHA1-Digest: 2mSQckaNSoAMb1Q0zTvLS/pAP70=
+
+Name: res/drawable-mdpi/ic_launcher.png
+SHA1-Digest: bNgCecY+O/VUZlT3Wkiqpaohic4=
+
